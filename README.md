@@ -1,4 +1,4 @@
-# Java encoder algorithm chuck norris
+## Java encoder algorithm chuck norris
 
 The encoding principle is simple. The input message consists of ASCII characters (7-bit). You need to transform the text into the sequence of 0 and 1 and use the Chuck Norris technique. The encoded output message consists of blocks of 0. A block is separated from another block by a space.
 
@@ -15,6 +15,7 @@ So C is coded as: 0 0 00 0000 0 00
 Make sure, that an encoding of a single character sequence is not separated. For example, 000 should be encoded as 00 000 and not as 00 0 00 0 00 0 or 00 0 00 00 or 00 00 00 0
 
 In this stage, your program should:
+
 
 Read a string from a console. The input contains a single line.
 Print The result: line, followed by a line with an encoded message.
