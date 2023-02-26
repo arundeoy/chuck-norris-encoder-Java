@@ -4,6 +4,7 @@ The encoding principle is simple. The input message consists of ASCII characters
 
 Two consecutive blocks are used to produce a series of the same value bits (only 1 or0 values):
 
+
 First block: it is always 0 or 00. If it is 0, then the series contains 1, if not, it contains 0
 Second block: the number of 0 in this block is the number of bits in the series
 Let's take a simple example with a message which consists of only one character C. The C symbol in binary is represented as 1000011, so with Chuck Norris technique this gives:
